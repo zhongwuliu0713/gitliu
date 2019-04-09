@@ -16,9 +16,9 @@ public class Example {
 	
 	public static void main(String[] args) {
 		SpringApplication.run(Example.class, args);
-//		System.out.println("system started!");
-//		SpringApplication app = new SpringApplication(Example.class);
-//		app.setBannerMode(Banner.Mode.OFF);
-//		app.run(args);
+		System.out.println("system started!");
+		SpringApplication app = new SpringApplication(Example.class);
+		app.setBannerMode(Banner.Mode.OFF);
+		app.run(args);
 	}
 }
